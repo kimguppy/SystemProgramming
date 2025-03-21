@@ -1,6 +1,6 @@
 # 학습 일정
 
-## [Week 1 - Week 2]([링크_주소](https://github.com/kimguppy/SystemProgramming/tree/main/week2)
+## [Week 1 - Week 2]([링크_주소](https://github.com/kimguppy/SystemProgramming/tree/main/week%202)
 
 ### 📌 학습 내용
 - 리눅스 기본 명령어
@@ -19,5 +19,11 @@ WSL(Windows Subsystem for Linux)에서 사용되는 경로는 Windows의 파일 
 - C 드라이브: /mnt/c/
 - D 드라이브: /mnt/d/
 - E 드라이브: /mnt/e/
+
+  ### 📝 과제
+- WSL 환경에서 c프로그램 작성 및 실행
+
+![실습 이미지](/week3/misson.png)
+
 
 ## [Week 4 - Week 5](링크_주소)
