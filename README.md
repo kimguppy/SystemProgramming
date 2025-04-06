@@ -28,4 +28,21 @@ WSL(Windows Subsystem for Linux)에서 사용되는 경로는 Windows의 파일 
 ![실습 이미지](/week3/misson.png)
 
 
-## [Week 4 - Week 5](링크_주소)
+## [Week 4](링크_주소)
+
+  ### 📝 과제
+- WSL 환경에서 c프로그램 작성 및 실행
+
+![실습 이미지](/week3/misson.png)
+
+## [Week 5](링크_주소)
+📌 Claude AI를 활용한 학습 경험
+오늘 이진수 변환 프로그램을 구현하는 과정에서 Claude AI를 활용했습니다.
+
+  ### 📝 과제
+- 사용자 입력 값 검증 (0~255 범위)
+- 8비트 이진수 변환 로직
+- 1의 개수를 세는 효율적인 방법
+- 상위 4비트 추출 방법
+
+![실습 이미지](/week4/image.png)
