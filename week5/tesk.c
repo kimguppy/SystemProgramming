@@ -28,7 +28,7 @@ int main() {
         scanf("%d", &number);
 
         if (number >= 0 && number <= 255) {
-            break; // 올바른 값이면 반복 종료
+            break; 
         } else {
             printf("잘못된 입력입니다. 다시 입력해주세요.\n");
         }
