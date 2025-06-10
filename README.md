@@ -1,6 +1,6 @@
 # 학습 일정
 
-## [Week 2](https://github.com/kimguppy/SystemProgramming/tree/main/week%202)
+## [Week 2](https://github.com/kimguppy/SystemProgramming/tree/main/week02)
 
 ### 📌 학습 내용
 - 리눅스 기본 명령어
@@ -8,7 +8,7 @@
 ### 📝 과제
 - WSL 환경에서 파일 생성 및 이동 실습
 
-![실습 이미지](/img/KakaoTalk_20250314_112703019.png)
+![실습 이미지](week02/KakaoTalk_20250314_112703019.png)
 
 
 ## [Week 3](https://github.com/kimguppy/SystemProgramming/tree/main/week3)
