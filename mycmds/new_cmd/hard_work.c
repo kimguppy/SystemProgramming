@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     int opt;
     int force_delete = 0;   // -f
     int delete_dir = 0;     // -h
-    int timeout_minutes = 10;  // 기본 10분
+    int timeout_minutes = 0;  // 기본 10분
 
     while ((opt = getopt(argc, argv, "frsh")) != -1) {
         switch (opt) {
@@ -79,7 +79,7 @@ int main(int argc, char *argv[]) {
             return 0;
         }
 
-        printf("%d분 동안 입력이 없으면 삭제 여부를 묻습니다.\n", timeout_minutes);
+        printf("10분 동안 입력이 없으면 삭제 여부를 묻습니다.\n");
 
         while (1) {
             fd_set readfds;
@@ -98,7 +98,7 @@ int main(int argc, char *argv[]) {
                 return 1;
             } else if (retval == 0) {
                 // 타임아웃
-                printf("\n%d분간 입력 없음! '%s' 디렉터리를 삭제하시겠습니까? (y/n): ", timeout_minutes, dname);
+                printf("\n 10분간 입력 없음! '%s' 디렉터리를 삭제하시겠습니까? (y/n): ", dname);
                 fflush(stdout);
 
                 char answer[10];
@@ -141,7 +141,7 @@ int main(int argc, char *argv[]) {
             return 0;
         }
 
-        printf("%d분 동안 입력 없으면 삭제 여부를 묻습니다.\n", timeout_minutes);
+        printf(" 10분 동안 입력 없으면 삭제 여부를 묻습니다.\n");
         printf("아무 키나 누르면 타이머가 초기화됩니다.\n");
 
         while (1) {
@@ -161,7 +161,7 @@ int main(int argc, char *argv[]) {
                 return 1;
             } else if (retval == 0) {
                 // 타임아웃
-                printf("\n%d분간 입력 없음! '%s' 를 삭제하시겠습니까? (y/n): ", timeout_minutes, path);
+                printf("\n 10분간 입력 없음! '%s' 를 삭제하시겠습니까? (y/n): ", path);
                 fflush(stdout);
 
                 char answer[10];
