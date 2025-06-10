@@ -36,7 +36,7 @@ WSL(Windows Subsystem for Linux)에서 사용되는 경로는 Windows의 파일 
 ![실습 이미지](/week4/image.png)
 
 ## [Week 5](https://github.com/kimguppy/SystemProgramming/tree/main/week5)
-📌 Claude AI를 활용한 학습 경험
+### 📌 학습 내용
 오늘 이진수 변환 프로그램을 구현하는 과정에서 Claude AI를 활용했습니다.
 
   ### 📝 과제
@@ -48,3 +48,22 @@ WSL(Windows Subsystem for Linux)에서 사용되는 경로는 Windows의 파일 
 ![실습 이미지](/week5/imageAI.png)
 
 ![실습 이미지](/week5/image.png)
+
+## [Week 6](https://github.com/kimguppy/SystemProgramming/tree/main/week6)
+### 📌 학습 내용
+오늘 이진수 변환 프로그램을 구현하는 과정에서 Claude AI를 활용했습니다.
+
+
+
+
+## [Week 7](https://github.com/kimguppy/SystemProgramming/tree/main/week7)
+
+## [Week ](https://github.com/kimguppy/SystemProgramming/tree/main/week8)
+
+## [Week 6](https://github.com/kimguppy/SystemProgramming/tree/main/week6)
+
+## [Week 6](https://github.com/kimguppy/SystemProgramming/tree/main/week6)
+
+
+
+
