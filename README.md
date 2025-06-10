@@ -44,7 +44,7 @@ WSL(Windows Subsystem for Linux)에서 사용되는 경로는 Windows의 파일 
 - 8비트 이진수 변환 로직
 - 1의 개수를 세는 효율적인 방법
 - 상위 4비트 추출 방법
-- 
+  
 ![실습 이미지](/week05/imageAI.png)
 
 ![실습 이미지](/week05/image.png)
@@ -57,10 +57,32 @@ Bash 스크립트 실습을 통한 VI 편집기 사용법 연습 및 변수 활�
 ### 📌 학습 내용 
 Bash 스크립트 실습을 통한 파일 복사, 컴파일 학습
 
+# 리눅스에서 C 파일 컴파일 과정 간략 정리
+
+1. **전처리 (Preprocessing)**  
+   - `#include`, `#define` 등 매크로와 헤더파일을 처리  
+   - 결과: 확장된 소스 코드 (`.i` 파일)
+
+2. **컴파일 (Compilation)**  
+   - 전처리된 코드를 어셈블리어로 변환  
+   - 결과: 어셈블리 코드 (`.s` 파일)
+
+3. **어셈블 (Assembly)**  
+   - 어셈블리 코드를 기계어(객체코드)로 변환  
+   - 결과: 객체 파일 (`.o` 파일)
+
+4. **링킹 (Linking)**  
+   - 여러 객체 파일과 라이브러리를 연결하여 실행 파일 생성  
+   - 결과: 실행 파일 (예: `a.out`)
+
+---
+
+예시 명령어:  
+gcc hello.c -o hello
+
 ## [Week 9](https://github.com/kimguppy/SystemProgramming/tree/main/week9)
 ### 📌 학습 내용 
  리눅스 시스템 프로그래밍 및 구조화된 C 프로그래밍에 대한 중간 수준 또는 고급 주제 1
-
 
 ## [Week 10](https://github.com/kimguppy/SystemProgramming/tree/main/week10)
 ### 📌 학습 내용 
@@ -78,7 +100,7 @@ Bash 스크립트 실습을 통한 파일 복사, 컴파일 학습
 ### 📌 학습 내용 
 리눅스에서 링크의 개념과 생성, 활용 방법을 이해 및 실습
 
-## 심볼릭 링크 (Symbolic Link) vs 하드 링크 (Hard Link)
+#심볼릭 링크 (Symbolic Link) vs 하드 링크 (Hard Link)
 
 - **심볼릭 링크 (Soft Link)**  
   - 원본 파일의 경로를 가리키는 특수 파일  
